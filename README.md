@@ -3,7 +3,7 @@ Repositorio base para las hojas de trabajo del curso de Organización de Lenguaj
 
 ## Requerimientos
 El entorno de desarrollo en el que fue realizado este proyecto está compuesto por los siguientes elementos.
-* NetBeans 8.1
+* NetBeans 8.1.0
 * JDK 1.8.0_121
 * JFlex 1.6.1
 * CUP 11a
