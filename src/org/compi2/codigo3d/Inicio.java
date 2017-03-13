@@ -41,6 +41,12 @@ public class Inicio extends javax.swing.JFrame {
         });
 
         jTextField_Expresion.setFont(new java.awt.Font("Roboto Mono", 0, 18)); // NOI18N
+        jTextField_Expresion.setText("(a<b || c<d)  && (e>=f || g<h || !(j==k && m!=p))");
+        jTextField_Expresion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField_ExpresionActionPerformed(evt);
+            }
+        });
 
         jTextArea_Codigo3Dgenerado.setColumns(20);
         jTextArea_Codigo3Dgenerado.setFont(new java.awt.Font("Roboto Mono Light", 0, 18)); // NOI18N
@@ -89,6 +95,10 @@ public class Inicio extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_jButton_GenerarC3DActionPerformed
+
+    private void jTextField_ExpresionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_ExpresionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_ExpresionActionPerformed
 
     public static void main(String args[]) {
         try {

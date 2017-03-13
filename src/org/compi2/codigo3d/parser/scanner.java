@@ -235,11 +235,6 @@ public class scanner implements java_cup.runtime.Scanner {
    */
   private int zzFinalHighSurrogate = 0;
 
-  /* user code: */
-    //Código de usuario
-    
-
-
 
   /**
    * Creates a new scanner
@@ -676,7 +671,7 @@ public class scanner implements java_cup.runtime.Scanner {
             }
           case 34: break;
           case 13: 
-            { return new Symbol(sym.not, yyline, yycolumn);
+            { return new Symbol(sym.not_, yyline, yycolumn);
             }
           case 35: break;
           case 14: 
@@ -688,11 +683,11 @@ public class scanner implements java_cup.runtime.Scanner {
             }
           case 37: break;
           case 16: 
-            { return new Symbol(sym.or, yyline, yycolumn);
+            { return new Symbol(sym.or_, yyline, yycolumn);
             }
           case 38: break;
           case 17: 
-            { return new Symbol(sym.and, yyline, yycolumn);
+            { return new Symbol(sym.and_, yyline, yycolumn);
             }
           case 39: break;
           case 18: 

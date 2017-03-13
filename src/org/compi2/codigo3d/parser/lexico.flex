@@ -4,15 +4,10 @@ import java_cup.runtime.Symbol;
 
 //Scanner para generar C3D
 %%
-%{
-    //Código de usuario
-    
-
-%}
-
+   
+%public
 %cup
 %class scanner
-%public
 %line
 %char
 %column
@@ -48,16 +43,16 @@ ENTER   = [\ \n]
 <YYINITIAL> {PAR_DER}	    { return new Symbol(sym.PAR_DER, yyline, yycolumn, null); }
 <YYINITIAL> {
   "||"
-{   return new Symbol(sym.or, yyline, yycolumn);                  }
+{   return new Symbol(sym.or_, yyline, yycolumn);                  }
 
     "&&"
-{   return new Symbol(sym.and, yyline, yycolumn);                  }
+{   return new Symbol(sym.and_, yyline, yycolumn);                  }
 
     "!="
 {   return new Symbol(sym.distinto, yyline, yycolumn);                   }
 
     "!"
-{   return new Symbol(sym.not, yyline, yycolumn);                  }
+{   return new Symbol(sym.not_, yyline, yycolumn);                  }
 
     ">="
 {   return new Symbol(sym.mayorigual, yyline, yycolumn);                }
