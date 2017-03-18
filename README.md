@@ -1,5 +1,6 @@
 # MakerC3D
 Repositorio base para las hojas de trabajo del curso de Organización de Lenguajes y Compiladores 2 para generar código de tres direcciones.
+agregado el corto circuito 
 
 ## Requerimientos
 El entorno de desarrollo en el que fue realizado este proyecto está compuesto por los siguientes elementos.
